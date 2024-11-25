@@ -1,0 +1,42 @@
+Raytracing:
+
+directionToCamera: -0.77, -0.31, -0.55, 0.0
+
+intersectPointNormal & Pos: (ObjectSpace)
+0.585, 0.763, 0.273
+
+intersectPointNormal (World Space)
+-0.71, -0.29, -0.63
+
+ctm, ctm_surfaceNormal, same as on the paper
+
+intersectPointPos (World Space)
+1.979, 0.35, -0.926
+
+
+LightDirection1: 10, 10, 10; 
+a, d = 0
+reflectLightDirection: 0.778, -0.02, 0.627
+s = 0
+
+LightDirection2: -2, -2, 2; 
+a = 0
+d = 0.086, 0.043, 0.086, 1.107
+reflectLightDirection: 0.27, 0.45, -0.85
+s = 0
+
+LightDirection3: 4, 4, 4; 
+a = 0
+d = 0
+reflectLightDirection: 0.77, -0.02, 0.62
+s = 0
+
+LightDirection4: -6, -6, -6; 
+a = 0
+d = 0.465, 0.232, 0.465, 1.58
+reflectLightDirection: -0.77, 0.02, -0.62
+s = 0.1, 0.05, 0.1
+
+
+
+Rasterization:
