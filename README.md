@@ -54,6 +54,12 @@
     </tr>
     </table>
 
+    | **Input**                                  | **Remeshed**                             |
+    |:------------------------------------------:|:----------------------------------------:|
+    | ![Input](mesh-ranrandy/student_outputs/extra/peter_input_1.png) | ![Remeshed](mesh-ranrandy/student_outputs/extra/remesh_peter_1.png) |
+
+
+
 - [L-System](l-system.md) *for trees*.
 
     <img style="width:49%" src="L-system/outputs/l_system_tree_3d_Figure_2_8_b.png" alt="rasterizer teaser 1" />
