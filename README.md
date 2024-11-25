@@ -57,7 +57,7 @@
 - [L-System](l-system.md) *for trees*.
 
     <img style="width:49%" src="L-system/outputs/l_system_tree_3d_Figure_2_8_b.png" alt="rasterizer teaser 1" />
-    <img style="width:36.75%" src="L-system/outputs/l_system_tree_3d_Figure_2_6_c.png" alt="rasterizer teaser 1" />
+    <!-- <img style="width:36.75%" src="L-system/outputs/l_system_tree_3d_Figure_2_6_c.png" alt="rasterizer teaser 1" /> -->
 
 
 ## Simulation
@@ -67,7 +67,7 @@
 
 - [As-Rigid-As-Possible (ARAP)](arap.md)
 
-    <img style="width:60%" src="arap-ranrandy/result-videos/armadillo-teaser.gif" alt="path tracer teaser" />
+    <img style="width:100%" src="arap-ranrandy/result-videos/armadillo-teaser.gif" alt="path tracer teaser" />
 
 - [Material Point Method (MPM) on 3D Gaussians](https://github.com/ranrandy/gaussian-splatting-mpm)
 
