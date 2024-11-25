@@ -1,23 +1,23 @@
 # Gallery
 - Rendering
-    - Path Tracer
-    - Ray Tracer
+    - **Path Tracer**
+    - **Ray Tracer**
     - Rasterizer
 - Geometry
     - Mesh
+    - ARAP
     - L-System
 - Simulation
+    - **MPM + 3DGS, Young's Modulus Estimation**
     - FEM
-    - ARAP
-    - MPM + 3DGS, Young's Modulus Estimation
 - Computational Photography & Vision
-    - HDR, Exposure Fusion
-    - Gradient Domain HDR Compression in CUDA
-    - Raw 3DGS
+    - **View Interpolation**
+    - **Raw 3DGS**
+    - **Exposure Fusion**
+    - **Gradient Domain HDR Compression in CUDA**
     - Poisson Blending
     - Texture Transfer
     - Panorama - Little Planet
-    - View Interpolation
 
 ---
 *Click subtitles to check more results*
@@ -45,7 +45,9 @@
     |:------------------------------------------:|:----------------------------------------:|
     | ![Input](mesh-ranrandy/student_outputs/extra/peter_input_1.png) | ![Remeshed](mesh-ranrandy/student_outputs/extra/remesh_peter_1.png) |
 
+- [As-Rigid-As-Possible (ARAP)](arap.md)
 
+    <img style="width:100%" src="arap-ranrandy/result-videos/armadillo-teaser.gif" alt="ARAP teaser" />
 
 - [L-System](l-system.md) *for trees*.
 
@@ -54,27 +56,23 @@
 
 
 ## Simulation
-- [Finite Element Method (FEM)](fem.md).
-
-    <img style="width:70%" src="fem-ranrandy/result-videos/basic.gif" alt="FEM teaser" />
-
-- [As-Rigid-As-Possible (ARAP)](arap.md)
-
-    <img style="width:100%" src="arap-ranrandy/result-videos/armadillo-teaser.gif" alt="ARAP teaser" />
-
 - [Material Point Method (MPM) on 3D Gaussians](https://github.com/ranrandy/gaussian-splatting-mpm)
 
     <img style="width:70%" src="gs-mpm/elastic-lego.gif" alt="MPM teaser" />
     <img style="width:70%" src="gs-mpm/gs-mpm-elasticity-optimization.gif" alt="MPM optimizer teaser" />
 
+- [Finite Element Method (FEM)](fem.md).
+
+    <img style="width:70%" src="fem-ranrandy/result-videos/basic.gif" alt="FEM teaser" />
+
 ## Computational Photography & Vision
-- HDR Imaging & Exposure Fusion
+- [View Interpolation](https://github.com/ranrandy/view-interpolation)
 
-    | **Naive Fusion**                           | **Pyramid Fusion**                       |
-    |:------------------------------------------:|:----------------------------------------:|
-    | ![Naive Fusion](vision/expoF_naive_wc1.0_ws1.0_wwe1.0_wes0.2.png) | ![Pyramid Fusion](vision/expoF_pyramid_wc1.0_ws1.0_wwe1.0_wes0.2.png) |
+    <img style="width:100%" src="vision/view-interpolation.gif" alt="view interpolation teaser" />
 
-    <img style="width:100%" src="vision/expoF_kfc.png" alt="Exposure Fusion with Flash teaser" />
+- [Raw 3D Gaussian Splatting](raw-3dgs.md)
+
+    <img style="width:100%" src="vision/raw-3dgs.png" alt="raw 3dgs teaser" />
 
 - [Gradient Domain HDR Compression (CUDA)](https://github.com/ranrandy/hdrc)
 
@@ -82,10 +80,13 @@
     |:------------------------------------------:|:----------------------------------------:|
     | ![Gamma](vision/belgium_ldr_gamma.png)     | ![HDRC](vision/belgium_ldr_hdrc.png)     |
 
+- Exposure Fusion
 
-- [Raw 3D Gaussian Splatting](raw-3dgs.md)
+    | **Naive Fusion**                           | **Pyramid Fusion**                       |
+    |:------------------------------------------:|:----------------------------------------:|
+    | ![Naive Fusion](vision/expoF_naive_wc1.0_ws1.0_wwe1.0_wes0.2.png) | ![Pyramid Fusion](vision/expoF_pyramid_wc1.0_ws1.0_wwe1.0_wes0.2.png) |
 
-    <img style="width:100%" src="vision/raw-3dgs.png" alt="raw 3dgs teaser" />
+    <img style="width:100%" src="vision/expoF_kfc.png" alt="Exposure Fusion with Flash teaser" />
 
 - Poisson Blending
 
@@ -98,7 +99,3 @@
 - Panorama - Little Planet
 
     <img style="width:100%" src="vision/pano_little_planet.jpg" alt="little planet pano teaser" />
-
-- [View Interpolation](https://github.com/ranrandy/view-interpolation)
-
-    <img style="width:100%" src="vision/view-interpolation.gif" alt="view interpolation teaser" />
