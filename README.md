@@ -10,14 +10,15 @@
 - Computational Photography & Vision
     - ***Raw 3DGS***
     - ***Gradient Domain HDR Compression in CUDA***
+    - More...
     <!-- - HDR, Exposure Fusion -->
     <!-- - View Interpolation -->
     <!-- - Poisson Blending -->
     <!-- - Texture Transfer -->
     <!-- - Panorama - Little Planet -->
 
----
-*Click subtitles to check more results and details*
+<!-- --- -->
+<!-- *Click subtitles to check more results and details* -->
 
 ## Rendering
 - [Monte Carlo Path Tracer](details/path-tracer.md)
